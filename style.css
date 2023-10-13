@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2f1893;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.nav-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-weight: 500;
+    margin: 40px;
+}
+.nav-contents p a{
+    color: white;
+}
+
+.nav-contents p .overview{
+    color: grey;
+}
+
+.nav-contents button, .learn-more{
+    background-color: #E93A7D;
+    font-size: small;
+    padding: 4px 7px;
+    border-radius: 20px;
+    border: none;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.side1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 40px;
+    height: auto;
+    width: 250px;
+    color: white;
+}
+
+.form {
+    height: 400px;
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ip{
+    margin: 10px;
+}
+
+.form input{
+    border-radius: 20px;
+    padding: 5px;
+    font-size: small;
+    border: 1px solid lightslategray;
+    width: 100%;
+    outline: none;
+}
+
+.btn-header h1{
+    margin-bottom: 20px;
+}
+
+.btn-header .sign-in{
+    color: white;
+    background-color: blue;
+    width: 100%;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-header .login-twitter{
+    color: white;
+    background-color: #1DA1F2;
+    width: 100%;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+}
+.btn-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.terms{
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 5px;
+    width: 100%;
+    margin: 10px;
+}
+
+.terms p{
+    font-size:12px;
+    width: 1000%;
+}
+
+
+.btn-header p .last{
+    color: #77e7da;
+}
+
+.hr{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+hr{
+    transform: rotate(90deg);
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+
+}
+
